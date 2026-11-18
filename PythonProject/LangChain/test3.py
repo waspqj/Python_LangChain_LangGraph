@@ -18,7 +18,7 @@ from sympy.physics.units import temperature
 configurable_model = init_chat_model(
     model="deepseek-v4-pro",
     temperature=2,
-    max_tokens=100,
+    max_tokens=100000,
     configurable_fields=("model", "model_provider", "temperature", "max_tokens",),
     config_prefix="first"
 )
